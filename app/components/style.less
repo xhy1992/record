@@ -1,0 +1,141 @@
+.header{
+    height: 50px;
+    background: #68b7bb;
+    width: 100%;
+    color:white;
+
+    .wrap{
+		width: 1200px;
+	    margin: 0 auto;
+	    height:100%;
+	    display: flex;
+	    align-content: center;
+	    line-height: 50px;
+	    position: relative;
+
+	    form{
+	    	width:100%;
+	    }
+
+	    .titel{
+		    font-size: 22px;
+	    	padding-right: 10px;
+	    	font-weight: bold;
+		}
+		.option{
+			float: right;
+
+			input{
+			    height: 25px;
+			    border: 0;
+			    border-radius: 3px;
+			    color: black;
+			}
+
+			button{
+			    padding: 6px 15px;
+    			margin-left: 10px;
+			    border: 0;
+			    background: #fff;
+			    border-radius: 2px;
+			    box-shadow: 1px 1px 1px 2px #539598;
+			    background-color: white;
+			    line-height: 14px;
+    			color: black;
+			}
+		}
+
+		.hint{
+			position: absolute;
+		    right: 5px;
+		    top: 40px;
+		    color: black;
+
+		    .test{
+		    	height:16px;
+
+		    	span{
+		    		position: absolute;
+				    height: 0;
+				    width: 0;
+				    left:12px;
+		    	}
+		    	.top{
+		    		border-right: 8px solid transparent;
+				    border-left: 8px solid transparent;
+				    border-bottom: 16px solid #ffffff;
+				    top: 5px;
+		    	}
+		    	.bot{
+		    		border-right: 8px solid transparent;
+				    border-left: 8px solid transparent;
+				    border-bottom: 16px solid #bbb6b6;
+		    	}
+		    }
+		    div:last-child{
+		        line-height: 25px;
+			    padding: 4px 8px;
+			    border: 2px solid #bbb6b6;
+			    border-radius: 5px;
+			    font-size: 15px;
+		    }
+		}
+	}
+}
+.navigation{
+	width: 1200px;
+    margin: 0 auto;
+    height:50px;
+    display: flex;
+    align-content: center;
+    position: relative;
+
+    .nav{
+    	width: 100%;
+
+    	li{
+    		list-style: none;
+    		list-style: none;
+		    display: inline-flex;
+		    width: 25%;
+		    justify-content: center;
+		    line-height: 30px;
+
+		    a{
+		    	text-decoration: none;
+		    	color: black;
+		    }
+    	}
+    	.active{
+    		color: #49A9EE;
+		    font-size: 16px;
+		    width: 100%;
+		    text-align: center;
+    	}
+    }
+}
+.doing{
+	width: 1200px;
+    margin: 5px auto;
+
+    li{
+    	height: 32px;
+	    width: 100%;
+	    margin: 0 auto;
+	    line-height: 32px;
+	    background: #fff;
+	    position: relative;
+	    margin-bottom: 10px;
+	    border-radius: 3px;
+	    border-left: 5px solid #629A9C;
+	    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+	    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+	    list-style: none;
+
+	    input{
+	    	height: 22px;
+		    width: 22px;
+		    margin: 4px;
+	    }
+    }
+}
